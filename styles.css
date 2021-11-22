@@ -11,3 +11,69 @@ body {
   padding-top: 4rem ;
   font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  text-align: center;
+  
+
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    
+}
+
+form p {
+    text-align: center;
+    color: red;
+    margin: 1.25rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+input {
+    display: block;
+    width: 90%;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin:auto;
+    outline: none;
+    border: 1px solid purple;
+}
+input:focus {
+    border-width: 2px;
+    background-color: #f2709b10;
+    transition: border-width 200ms ease-in, background-color 200ms ease-in;
+}
+
+input.error {
+    border-width: 2px;
+    border-color: red;
+}
+label {
+    display:block;
+   margin: 1rem 2rem;
+   
+}
+button {
+    outline: none;
+    border: none;
+    display: block;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    width: 90%;  
+    background-color: purple;
+    color: white;
+    transition: filter 200ms ease-in;
+
+  
+}
+button:focus ,
+button:hover{
+    filter: brightness(1.3);
+}
+
+
