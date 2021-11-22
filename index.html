@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <form id="signup-form">
+        
+        <h1>Sign-up</h1>
+        <p id="error"></p>
+        <label for="username">UserName</label>
+        <input type="text" id="username" placeholder="Enter Username" required minlength="4" maxlength="255">
+        <label for="password"> Password</label>
+        <input type="password" id="password" name="pwd" placeholder="Enter Password"required minlength="8">
+        <label for="cpassword">Confirm Password</label>
+        <input type="password" id="cpassword" name="cpwd" placeholder="Confirm Password" required minlength="8">
+        <button type="submit">Submit</button>
+    </form>
     <script src="index.js"></script>
 </body>
 </html>
