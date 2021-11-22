@@ -10,6 +10,7 @@ function onSubmit(e) {
   formErr.innerText = '';
   pwd.classList.remove("error");
   cpwd.classList.remove("error");
+  alert("signUp Successful")
 }
 form.addEventListener("submit", onSubmit);
 function showError(err, el) {
